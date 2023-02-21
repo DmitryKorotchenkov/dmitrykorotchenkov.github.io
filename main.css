@@ -145,12 +145,13 @@ h3.white {
   font-size: 12px;
   text-decoration: none;
 }
-/* summary */
-.summary > p {
+.summary p {
   text-align: center;
   padding: 0px 50px;
 }
-/* work history */
+.summary li {
+  font-size: 14px;
+}
 .history-block {
   margin-bottom: 20px;
 }
@@ -197,7 +198,7 @@ h3.white {
     display: none;
   }
 }
-@media only screen and (max-width: 676px), only screen and (max-device-width: 676px) {
+@media only screen and (max-width: 676px),only screen and (max-device-width: 676px) {
   .only-desktop {
     display: none;
   }
